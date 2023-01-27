@@ -1,0 +1,68 @@
+body{
+    background-color: #AAE3E2;
+}
+#pojemnik{
+    width: 1000px;
+    height: 1000px;
+    background-color: #FDEBED;
+    margin: auto;
+    box-shadow: 10px 10px 10px 10px #668887;
+}
+#naglowek{
+    width: 960px;
+    height: 60px;
+    padding: 20px;
+    background-color: #D9ACF5;
+    color: #B9F3FC;
+    text-align: center;
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#menu{
+    width:260px;
+    height: 800px;
+    padding:20px;
+    /*
+    ma "pływać"  z lewej strony
+    */
+    float:left;
+    background-color: #FFCEFE;
+    text-align: center;
+    font-size: 25px;
+    color: darkred;
+    list-style-type: none;
+}
+#menuList{
+    list-style-type: none;
+}
+#menuList li{
+    border-radius: 0px 20px 20px 0px;
+    margin: 10px 5px;
+    padding: 5px;
+    background-color: red;
+}
+#menuList li:hover{
+    color: white;
+    background-color: darkred;
+}
+#main{
+    width: 660px;
+    padding: 20px;
+    height: 760px;
+    float: right;
+    background-color: #FDEBED;
+}
+#stopka{
+    margin-top: auto;
+    width: 960px;
+    height: 40px;
+    padding: 20px;
+    background-color: #FFCEFE;
+    color: darkred;
+    /*
+    czyści floaty, bo są one przekazywane niższym elementom
+    */
+    clear:both;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

@@ -1,0 +1,40 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#top{
+    background-color: #9692B1;
+    color: white;
+    text-align: center;
+    height: 80px;
+}
+#left{
+    background-color: #9692B1;
+    color: white;
+    width: 20%;
+    float:left;
+    height: 750px;
+}
+#contentTop{
+    background-color: #FFF4CC;
+    width: 80%;
+    text-align: center;
+    float:right;
+    height: 300px;
+}
+#contentBottom{
+    background-color: #DBCC93;
+    text-align: center;
+    width: 80%;
+    float:right;
+    height: 450px;
+}
+#bottom{
+    clear: both;
+    color: white;
+    background-color: #9692B1;
+    text-align: right;
+    height: 80px;
+}
+a{
+    color: white;
+}

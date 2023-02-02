@@ -52,20 +52,7 @@ body{
     background-color: rgb(240,234,266);
     padding: 120px;
 }
-#godzinyOtwarcia{
-    border: 1px solid;
-    border-color: rgb(130,69,85);
-    color: rgb(130,69,85);
-    padding: 10px;
-}
-#godzinyOtwarcia tr{
-    border: 1px solid;
-    border-color: rgb(130,69,85);
-    color: rgb(130,69,85);
-    padding: 10px;
-}
-#godzinyOtwarcia tr td{
-
+#godzinyOtwarcia, tr,td{
     border: 1px solid;
     border-color: rgb(130,69,85);
     color: rgb(130,69,85);

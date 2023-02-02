@@ -8,9 +8,6 @@ body{
     float:right;
 
 }
-#main{
-    clear:both;
-}
 #bottomLeft{
     float:left;
 
@@ -18,9 +15,6 @@ body{
 #bottomRight{
     float:right;
 
-}
-#stopka{
-    clear:both;
 }
 #topLeft{
     background-color: rgb(130,69,85);
@@ -71,13 +65,14 @@ body{
     padding: 10px;
 }
 #godzinyOtwarcia tr td{
+
     border: 1px solid;
     border-color: rgb(130,69,85);
     color: rgb(130,69,85);
     padding: 10px;
 }
 a{
-    color:rgb(240,334,226);
+    color: rgb(240,334,226);
 }
 #samochod{
     height: 200px;

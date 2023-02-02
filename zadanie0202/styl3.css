@@ -1,0 +1,84 @@
+body{
+    font-family: Helvetica;
+}
+#topLeft{
+    float:left;
+}
+#topRight{
+    float:right;
+
+}
+#main{
+    clear:both;
+}
+#bottomLeft{
+    float:left;
+
+}
+#bottomRight{
+    float:right;
+
+}
+#stopka{
+    clear:both;
+}
+#topLeft{
+    background-color: rgb(130,69,85);
+    color:white;
+    width: 30%;
+    height: 200px;
+    text-align: center;
+}
+#bottomLeft{
+    background-color: rgb(130,69,85);
+    color:white;
+    width: 30%;
+    height: 200px;
+    text-align: center;
+}
+#topRight {
+    background-color: rgb( 130, 69, 85);
+    color:white;
+    width: 70%;
+    height: 200px;
+    text-align: center;
+}
+#bottomRight {
+    background-color: rgb( 130, 69, 85);
+    color:white;
+    width: 70%;
+    height: 200px;
+    text-align: center;
+}
+#main {
+    background-color: rgb(240,234,266);
+    padding: 120px;
+}
+#stopka {
+    background-color: rgb(240,234,266);
+    padding: 120px;
+}
+#godzinyOtwarcia{
+    border: 1px solid;
+    border-color: rgb(130,69,85);
+    color: rgb(130,69,85);
+    padding: 10px;
+}
+#godzinyOtwarcia tr{
+    border: 1px solid;
+    border-color: rgb(130,69,85);
+    color: rgb(130,69,85);
+    padding: 10px;
+}
+#godzinyOtwarcia tr td{
+    border: 1px solid;
+    border-color: rgb(130,69,85);
+    color: rgb(130,69,85);
+    padding: 10px;
+}
+a{
+    color:rgb(240,334,226);
+}
+#samochod{
+    height: 200px;
+}

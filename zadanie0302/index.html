@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie 03.02.2023</title>
+</head>
+<body>
+    <input type="number" id="inputA">
+    +
+    <input type="number" id="inputB">
+    <button onclick="equalClick()"> = </button>
+    <span id="wynik"></span>
+    <script>
+        function equalClick(){
+            let a = Number(document.querySelector("#inputA").value);
+            let b = Number(document.querySelector("#inputB").value);
+            document.querySelector("#wynik").innerHTML=(a+b);
+        }
+    </script>
+</body>
+</html>

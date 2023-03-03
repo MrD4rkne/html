@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="wynik"></p>
+    <p id="wynik1"></p>
+    <p id="wynik2"></p>
+
+    <button id="klikator">WITAJ</button>
+    <p id="witaj"></p>
+
+    <button id="klikator2" onclick="klikator2_Click()">WITAJ2</button>
+    <p id="witaj2"></p>
+
+
+    <input type="range" value="0" min="0" max="100" oninput="sliderChanged(this.value)">
+
+
+    <div id="liczba"></div>
+
+
+    <input type="number" id = "liczba1">
+    <button id="pokaz" onclick="showClicked()">Pokaż</button>
+    <div id ="wynik3"></div>
+
+
+    <script>
+        var zmiennaA;
+        let liczba = 10;
+        const zmiennaC = "";
+
+        let wynik = document.getElementById("wynik");
+        wynik.innerHTML=liczba;
+
+        let wyniki=document.querySelector("#wynik1");
+        wyniki.innerHTML="<H1>Wartość zmiennej b: "+liczba+"</H1>";
+
+        let a = 7;
+        let b = 12;
+        document.querySelector("#wynik2").innerHTML="Wynik dodawania liczby "+a+" i liczby "+b+" jest równy "+(a+b)+".";
+        
+        
+        const przycisk = document.querySelector("#klikator");
+        const akapitPrzycisk=document.querySelector("#witaj");
+        przycisk.addEventListener("click", function(){
+            akapitPrzycisk.innerHTML="<H2>Witaj świecie!</H2>";
+        });
+
+
+
+        function klikator2_Click(){
+            document.querySelector("#witaj2").innerHTML="<H2>Witaj świecie!</H2>";
+        }
+        function sliderChanged(value){
+            document.querySelector("#liczba").innerHTML=value;
+        }
+        function showClicked(value){
+            document.querySelector("#wynik3").innerHTML=document.querySelector("#liczba1").value;
+        }
+
+        
+    </script>
+</body>
+</html>

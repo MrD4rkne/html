@@ -19,14 +19,24 @@
         </ul>
     </div>
     <div id="srodkowy">
-        
+        <H2>Zapotrzebowanie na farbę</H2>
+        Powierzchnia malowania (m<sup>2</sup>):
+            <input type="number" id="powierzchniaInput">
+            <button onclick="PoliczClick()">Policz</button>
+            <div id="wynik"></div>
+            <script>
+                function PoliczClick(){
+                    let input = document.getElementById("powierzchniaInput").value;
+                    document.getElementById("wynik").innerHTML="Liczba potrzebnych puszek: " + Math.ceil(input/4.0);
+                }
+            </script>
     </div>
     <div id="prawy">
         <img src="obraz.png" alt="Próbki farb">
     </div>
     <div id="stopka">
         <H3>Malarz</H3>
-        <p>Stronę opracował:23</p>
+        <p>Stronę opracował: 23</p>
     </div>
 </body>
 </html>
